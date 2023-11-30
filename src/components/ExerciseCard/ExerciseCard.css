@@ -1,0 +1,30 @@
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.exercise-container {
+  text-align: left;
+}
+
+.exercise-card {
+  border: 2px solid #ddd;
+  padding: 16px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.exercise-image {
+  max-width: 100%;
+  height: auto;
+  margin-right: 16px;
+}
+
+.exercise-details {
+  flex-grow: 1;
+}
